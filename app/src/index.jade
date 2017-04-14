@@ -1,0 +1,456 @@
+doctype html
+head
+	meta(charset="utf-8")
+	meta(name="viewport" content="width=device-width, initial-scale=1, user-scalable=no")
+	title Рубикон
+	link(rel='stylesheet', href='css/reset.css')
+	link(rel='stylesheet', href='css/style.css')
+	link(rel='stylesheet', href='css/owl.carousel.min.css')
+	link(rel='stylesheet', href='css/carousel.css')
+	script(src='js/jquery.min.js')
+	script(src='js/jquery-migrate.min.js')
+	script(src='js/owl.carousel.min.js')
+body
+	header
+		.nav__mobile.tablet
+			ul.mobile__menu
+				li
+					a(href="#services") услуги
+				li
+					a(href="#about") о компании
+				li
+					a(href="#price") цены
+				li
+					a(href="#works") наши работы
+				li
+					a(href="#trust") нам доверяют
+				li
+					a(href="#contacts") контакты
+		nav
+			a(href="/").logo
+				img(src="img/logo.jpg", alt="")
+			ul#menu.menu
+				li.menu--item
+					a(href="#services") услуги
+				li.menu--item
+					a(href="#about") о компании
+				li.menu--item
+					a(href="#price") цены
+				li.menu--item
+					a(href="#works") наши работы
+				li.menu--item
+					a(href="#trust") нам доверяют
+				li.menu--item
+					a(href="#contacts") контакты
+				img.open(src="img/icons/menu.svg", alt="")
+				li.cell
+					a(href="tel:88172501260").cell--phone 8 (8172) 50-12-60
+					a(href="#call").desktop
+						button.btn.btn__red заказать звонок
+		.banner
+			form.forma2.banner--form(action="" method="post" id="sendform2" enctype="multipart/form-data")
+				h2
+					| закажи выезд на объект
+					br
+					| специалиста и рассчет стоимости 
+					br
+					| оборудования - 
+					span.big-red это бесплатно!
+				input(type="text" name="name2" placeholder="Имя" required)
+				input(type="text" name="phone2" placeholder="Телефон" required)
+				input(type="submit" value="заказать звонок").btn.button__red 
+
+	section#services
+		h3 наши услуги
+		p.mod__tac Мы работаем как с частными лицами, так и с предприятиями, производствами , крупными торговыми центрами
+		.mansonry
+			article.mansonry--item
+				img.mansonry--item__img.mansonry--item__semi(src="img/article-1.jpg", alt="")
+				.mansonry--item__description.mansonry--item__semi
+					h4 ПРОДАЖА ОБОРУДОВАНИЯ
+					p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+			article.mansonry--item
+				img.mansonry--item__img.mansonry--item__semi(src="img/article-1.jpg", alt="")
+				.mansonry--item__description.mansonry--item__semi
+					h4 ПРОДАЖА ОБОРУДОВАНИЯ
+					p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+			article.mansonry--item
+				.mansonry--item__description.mansonry--item__semi
+					h4 ПРОДАЖА ОБОРУДОВАНИЯ
+					p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+				img.mansonry--item__img.mansonry--item__semi(src="img/article-1.jpg", alt="")
+			article.mansonry--item
+				.mansonry--item__description.mansonry--item__semi
+					h4 ПРОДАЖА ОБОРУДОВАНИЯ
+					p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+				img.mansonry--item__img.mansonry--item__semi(src="img/article-1.jpg", alt="")
+			article.mansonry--item
+				img.mansonry--item__img.mansonry--item__semi(src="img/article-1.jpg", alt="")
+				.mansonry--item__description.mansonry--item__semi
+					h4 ПРОДАЖА ОБОРУДОВАНИЯ
+					p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+			article.mansonry--item
+				img.mansonry--item__img.mansonry--item__semi(src="img/article-1.jpg", alt="")
+				.mansonry--item__description.mansonry--item__semi
+					h4 ПРОДАЖА ОБОРУДОВАНИЯ
+					p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+			article.mansonry--item
+				.mansonry--item__description.mansonry--item__semi
+					h4 ПРОДАЖА ОБОРУДОВАНИЯ
+					button.btn.btn__blue круглосуточно!
+					p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat
+				img.mansonry--item__img.mansonry--item__semi(src="img/article-1.jpg", alt="")
+			article.mansonry--item
+				.mansonry--item__description.mansonry--item__semi
+					h4 ПРОДАЖА ОБОРУДОВАНИЯ
+					p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+				img.mansonry--item__img.mansonry--item__semi(src="img/article-1.jpg", alt="")
+		.owl-carousel.slide-single.mobile
+			.item
+				h4 ПРОДАЖА ОБОРУДОВАНИЯ
+				p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+			.item
+				h4 ПРОДАЖА ОБОРУДОВАНИЯ
+				p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+			.item
+				h4 ПРОДАЖА ОБОРУДОВАНИЯ
+				p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+			.item
+				h4 ПРОДАЖА ОБОРУДОВАНИЯ
+				p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+			.item
+				h4 ПРОДАЖА ОБОРУДОВАНИЯ
+				p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+			.item
+				h4 ПРОДАЖА ОБОРУДОВАНИЯ
+				p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+			.item
+				h4 ПРОДАЖА ОБОРУДОВАНИЯ
+				p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+			.item
+				h4 ПРОДАЖА ОБОРУДОВАНИЯ
+				p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis officiis dolorum fuga ab provident odit soluta beatae architecto fugiat non dolores nulla numquam, assumenda impedit harum commodi vitae laboriosam quisquam itaque ipsum animi facere quaerat quibusdam. Mollitia optio, veniam rem! Nisi eligendi, minima! Laudantium aperiam
+
+	section#about
+		h3 о компании
+		p.mod__tac В нашей компании при проектировании учитываются индивидуальные потребности каждого Клиента и объекта в целом. Опыт работы позволяет выполнить все пожелания и предложения Заказчика. Широкий модельный ряд даёт возможность произвести подбор холодильного оборудования в сочетании с инновационными разработками, повышающими производительность, эффективность и долговечность на протяжении всего периода эксплуатации.
+		.about
+			article.about--item
+				img(src="img/icons/5.svg", alt="")
+				p &nbsp;
+				h3 5 лет на рынке
+			article.about--item
+				img(src="img/icons/drill.svg", alt="")
+				p &nbsp;
+				h3 качественный 
+					br
+					| и быстрый монтаж
+			article.about--item
+				img(src="img/icons/service.svg", alt="")
+				p &nbsp;
+				h3 Профессиолнальное
+					br
+					| тех. обслуживание
+			article.about--item
+				img(src="img/icons/like.svg", alt="")
+				p &nbsp;
+				h3 Нам уже доверили
+					br
+					| более 300 компаний
+
+	#price
+		section
+			h3 цены
+			p.mod__tac Топ самых популярных услуг с ценами, чтобы Вы лучше сориентировались в нашей ценовой политике 
+			.owl-carousel.slide-one
+				.item
+					article.price
+						img(src="img/price-1.jpg", alt="")
+						br
+						p.mod__bold.mod__ttu.mod__tac Установка кондиционера
+						br
+						p.mod__tac  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim molestias tenetur accusantium, ratione rem.
+						h3.summ от 5000р.
+						a(href="#call")
+							button.btn.btn__red заказать звонок
+				.item
+					article.price
+						img(src="img/price-1.jpg", alt="")
+						br
+						p.mod__bold.mod__ttu.mod__tac Установка кондиционера
+						br
+						p.mod__tac  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim molestias tenetur accusantium, ratione rem.
+						h3.summ от 5000р.
+						a(href="#call")
+							button.btn.btn__red заказать звонок
+				.item
+					article.price
+						img(src="img/price-1.jpg", alt="")
+						br
+						p.mod__bold.mod__ttu.mod__tac Установка кондиционера
+						br
+						p.mod__tac  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim molestias tenetur accusantium, ratione rem.
+						h3.summ от 5000р.
+						a(href="#call")
+							button.btn.btn__red заказать звонок
+				.item
+					article.price
+						img(src="img/price-1.jpg", alt="")
+						br
+						p.mod__bold.mod__ttu.mod__tac Установка кондиционера
+						br
+						p.mod__tac  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim molestias tenetur accusantium, ratione rem.
+						h3.summ от 5000р.
+						a(href="#call")
+							button.btn.btn__red заказать звонок
+				.item
+					article.price
+						img(src="img/price-1.jpg", alt="")
+						br
+						p.mod__bold.mod__ttu.mod__tac Установка кондиционера
+						br
+						p.mod__tac  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim molestias tenetur accusantium, ratione rem.
+						h3.summ от 5000р.
+						a(href="#call")
+							button.btn.btn__red заказать звонок
+				.item
+					article.price
+						img(src="img/price-1.jpg", alt="")
+						br
+						p.mod__bold.mod__ttu.mod__tac Установка кондиционера
+						br
+						p.mod__tac  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim molestias tenetur accusantium, ratione rem.
+						h3.summ от 5000р.
+						a(href="#call")
+							button.btn.btn__red заказать звонок
+				.item
+					article.price
+						img(src="img/price-1.jpg", alt="")
+						br
+						p.mod__bold.mod__ttu.mod__tac Установка кондиционера
+						br
+						p.mod__tac  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim molestias tenetur accusantium, ratione rem.
+						h3.summ от 5000р.
+						a(href="#call")
+							button.btn.btn__red заказать звонок
+				.item
+					article.price
+						img(src="img/price-1.jpg", alt="")
+						br
+						p.mod__bold.mod__ttu.mod__tac Установка кондиционера
+						br
+						p.mod__tac  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim molestias tenetur accusantium, ratione rem.
+						h3.summ от 5000р.
+						a(href="#call")
+							button.btn.btn__red заказать звонок
+				.item
+					article.price
+						img(src="img/price-1.jpg", alt="")
+						br
+						p.mod__bold.mod__ttu.mod__tac Установка кондиционера
+						br
+						p.mod__tac  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim molestias tenetur accusantium, ratione rem.
+						h3.summ от 5000р.
+						a(href="#call")
+							button.btn.btn__red заказать звонок
+				.item
+					article.price
+						img(src="img/price-1.jpg", alt="")
+						br
+						p.mod__bold.mod__ttu.mod__tac Установка кондиционера
+						br
+						p.mod__tac  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim molestias tenetur accusantium, ratione rem.
+						h3.summ от 5000р.
+						a(href="#call")
+							button.btn.btn__red заказать звонок
+				.item
+					article.price
+						img(src="img/price-1.jpg", alt="")
+						br
+						p.mod__bold.mod__ttu.mod__tac Установка кондиционера
+						br
+						p.mod__tac  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim molestias tenetur accusantium, ratione rem.
+						h3.summ от 5000р.
+						a(href="#call")
+							button.btn.btn__red заказать звонок
+				.item
+					article.price
+						img(src="img/price-1.jpg", alt="")
+						br
+						p.mod__bold.mod__ttu.mod__tac Установка кондиционера
+						br
+						p.mod__tac  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim molestias tenetur accusantium, ratione rem.
+						h3.summ от 5000р.
+						a(href="#call")
+							button.btn.btn__red заказать звонок
+
+	section
+		p.mod__tac Расчет производится индивидуально, так как нужно учитывать особенности каждого из помещений!
+		a(href="#").price-list.mod__ttu
+			img(src="img/icons/pdf.svg", alt="")
+			span.mod__tdu посмотреть весь прайс-лист
+
+	section#works
+		h3 наши работы
+		.owl-carousel.slide-two
+				.item
+					article.work
+						img(src="img/work.jpg", alt="")
+						img(src="img/work.jpg", alt="")
+						img(src="img/work.jpg", alt="")
+						p &nbsp;
+						p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt et alias doloremque beatae laboriosam, soluta tempore velit ad, recusandae! Vitae tenetur quam molestiae saepe amet reprehenderit aspernatur sit error laboriosam quod quia ipsa ipsum ratione mollitia, nesciunt fugiat voluptates nihil sapiente corporis nostrum alias, nobis animi magni. Similique nisi quidem nesciunt ea ipsum facere culpa minus ut maxime, eveniet accusamus. Ducimus odit a delectus, dolore magni ullam repudiandae. Esse provident excepturi sapiente neque libero, velit nulla? Eligendi nesciunt fugit, dicta adipisci illo voluptate! Magni vitae, fugiat excepturi modi, illum hic error assumenda dolorem cumque quibusdam harum? Officiis blanditiis, natus quidem.
+				.item
+					article.work
+						img(src="img/work.jpg", alt="")
+						img(src="img/work.jpg", alt="")
+						img(src="img/work.jpg", alt="")
+						p &nbsp;
+						p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt et alias doloremque beatae laboriosam, soluta tempore velit ad, recusandae! Vitae tenetur quam molestiae saepe amet reprehenderit aspernatur sit error laboriosam quod quia ipsa ipsum ratione mollitia, nesciunt fugiat voluptates nihil sapiente corporis nostrum alias, nobis animi magni. Similique nisi quidem nesciunt ea ipsum facere culpa minus ut maxime, eveniet accusamus. Ducimus odit a delectus, dolore magni ullam repudiandae. Esse provident excepturi sapiente neque libero, velit nulla? Eligendi nesciunt fugit, dicta adipisci illo voluptate! Magni vitae, fugiat excepturi modi, illum hic error assumenda dolorem cumque quibusdam harum? Officiis blanditiis, natus quidem.
+				.item
+					article.work
+						img(src="img/work.jpg", alt="")
+						img(src="img/work.jpg", alt="")
+						img(src="img/work.jpg", alt="")
+						p &nbsp;
+						p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt et alias doloremque beatae laboriosam, soluta tempore velit ad, recusandae! Vitae tenetur quam molestiae saepe amet reprehenderit aspernatur sit error laboriosam quod quia ipsa ipsum ratione mollitia, nesciunt fugiat voluptates nihil sapiente corporis nostrum alias, nobis animi magni. Similique nisi quidem nesciunt ea ipsum facere culpa minus ut maxime, eveniet accusamus. Ducimus odit a delectus, dolore magni ullam repudiandae. Esse provident excepturi sapiente neque libero, velit nulla? Eligendi nesciunt fugit, dicta adipisci illo voluptate! Magni vitae, fugiat excepturi modi, illum hic error assumenda dolorem cumque quibusdam harum? Officiis blanditiis, natus quidem.
+				.item
+					article.work
+						img(src="img/work.jpg", alt="")
+						img(src="img/work.jpg", alt="")
+						img(src="img/work.jpg", alt="")
+						p &nbsp;
+						p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt et alias doloremque beatae laboriosam, soluta tempore velit ad, recusandae! Vitae tenetur quam molestiae saepe amet reprehenderit aspernatur sit error laboriosam quod quia ipsa ipsum ratione mollitia, nesciunt fugiat voluptates nihil sapiente corporis nostrum alias, nobis animi magni. Similique nisi quidem nesciunt ea ipsum facere culpa minus ut maxime, eveniet accusamus. Ducimus odit a delectus, dolore magni ullam repudiandae. Esse provident excepturi sapiente neque libero, velit nulla? Eligendi nesciunt fugit, dicta adipisci illo voluptate! Magni vitae, fugiat excepturi modi, illum hic error assumenda dolorem cumque quibusdam harum? Officiis blanditiis, natus quidem.
+				.item
+					article.work
+						img(src="img/work.jpg", alt="")
+						img(src="img/work.jpg", alt="")
+						img(src="img/work.jpg", alt="")
+						p &nbsp;
+						p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt et alias doloremque beatae laboriosam, soluta tempore velit ad, recusandae! Vitae tenetur quam molestiae saepe amet reprehenderit aspernatur sit error laboriosam quod quia ipsa ipsum ratione mollitia, nesciunt fugiat voluptates nihil sapiente corporis nostrum alias, nobis animi magni. Similique nisi quidem nesciunt ea ipsum facere culpa minus ut maxime, eveniet accusamus. Ducimus odit a delectus, dolore magni ullam repudiandae. Esse provident excepturi sapiente neque libero, velit nulla? Eligendi nesciunt fugit, dicta adipisci illo voluptate! Magni vitae, fugiat excepturi modi, illum hic error assumenda dolorem cumque quibusdam harum? Officiis blanditiis, natus quidem.
+				.item
+					article.work
+						img(src="img/work.jpg", alt="")
+						img(src="img/work.jpg", alt="")
+						img(src="img/work.jpg", alt="")
+						p &nbsp;
+						p.mod__taj Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt et alias doloremque beatae laboriosam, soluta tempore velit ad, recusandae! Vitae tenetur quam molestiae saepe amet reprehenderit aspernatur sit error laboriosam quod quia ipsa ipsum ratione mollitia, nesciunt fugiat voluptates nihil sapiente corporis nostrum alias, nobis animi magni. Similique nisi quidem nesciunt ea ipsum facere culpa minus ut maxime, eveniet accusamus. Ducimus odit a delectus, dolore magni ullam repudiandae. Esse provident excepturi sapiente neque libero, velit nulla? Eligendi nesciunt fugit, dicta adipisci illo voluptate! Magni vitae, fugiat excepturi modi, illum hic error assumenda dolorem cumque quibusdam harum? Officiis blanditiis, natus quidem.
+
+	section#trust
+		h3 наши работы
+		.owl-carousel.slide-five
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+			.item
+				img(src="img/trust-1.jpg", alt="")
+
+	#call
+		section.form
+			img(src="img/form-img.jpg", alt="")
+			form.forma(action="" method="post" id="sendform" enctype="multipart/form-data")
+				h2.blue.mod__tac Оставьте заявку на сайте и  наши менеджеры 
+					br
+					| свяжутся с Вами в ближайшее время!
+				p.mod__tac Специалисты нашей компании всегда готовы произвести 
+					br
+					| для Вас 
+					span.red БЕСПЛАТНЫЙ 
+					| подбор необходимого оборудования с учетом всех индивидуальных особенностей.
+				input(type="text" name="name" placeholder="Имя" required)
+				input(type="text" name="phone" placeholder="Телефон" required)
+				input(type="submit" value="заказать звонок").btn.button__red 
+
+	section#contacts
+		h3 контакты
+		.mod__flex
+			.map.mod__semi
+				script(type='text/javascript', charset='utf-8', async='', src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad1405f7dffa664053106fc9fa3e7c653d81577632731ad520a44057b493a049b&width=100%25&height=312&lang=ru_RU&scroll=false')
+			.contact.mod__semi
+				p.contact--string г. вологда
+				p &nbsp;
+				p.contact--string ул. предтеченская, д. 111, оф. 1111
+				p &nbsp;
+				p.contact--string тел. 8 (8172) 50-12-60
+				p &nbsp;
+				p.contact--string e-mail: rubicon@mail.ru
+				p &nbsp;
+				p &nbsp;
+				p.social Мы в соц.сетях
+				figure.mod__flex.mod__flex__start
+					a(href="")
+						img.soc(src="img/icons/fb.svg", alt="")
+					a(href="#")
+						img.soc.vk(src="img/icons/vk.svg", alt="")
+					a(href="#")
+						img.soc(src="img/icons/instagram.svg", alt="")
+
+	footer
+		a(href="/").logo
+			img(src="img/logo-2.jpg", alt="")
+		p.copy &copy; 2017 Рубикон
+		.phone.mod__flex
+			h2 8 (8172) 50-12-60 &nbsp;
+			a(href="#call")
+				button.btn.btn__red заказать звонок
+		a(href="itcdevel.ru").aitek
+			img(src="img/aitek.jpg", alt="")
+
+	#send
+		.message
+			h2.blue Ваше сообщение отправлено
+			br
+			br
+			p.mod__tac Наши менеджеры всяжутся с Вами в ближайшее время
+
+
+script(src='js/jquery.min.js')
+script(src='js/jquery-migrate.min.js')
+script(src='js/owl.carousel.min.js')
+script(src='js/main.js')
+script(type='text/javascript').
+	$(document).ready(function(){
+	$("#menu").on("click","a", function (event) {
+	event.preventDefault();
+	var id  = $(this).attr('href'),
+	top = ($(id).offset().top)-100;
+	$('body,html').animate({scrollTop: top}, 1500);
+	});
+	$(".owl-carousel").on("click","a", function (event) {
+	event.preventDefault();
+	var id  = $(this).attr('href'),
+	top = $(id).offset().top;
+	$('body,html').animate({scrollTop: top}, 1500);
+	});
+	$("footer").on("click","a", function (event) {
+	event.preventDefault();
+	var id  = $(this).attr('href'),
+	top = $(id).offset().top;
+	$('body,html').animate({scrollTop: top}, 1500);
+	});
+	});
